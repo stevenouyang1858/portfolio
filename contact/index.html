@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     
     <nav> 
         <a href = "../index.html">Home</a><br>
-        <a href = "../projects/index.html">Projects</a><br>
-        <a href = "index.html">Contact</a><br>
-        <a href = "https://github.com/stevenouyang1858" target="_blank">Profile</a><br>
-        <a href = "../resume/index.html">Resume</a>
+        <a href = "../projects/index.html" >Projects</a><br>
+        <a href = "index.html" class = 'current'>Contact</a><br>
+        <a href = "../resume/index.html" >Resume</a><br>
+        <a href = "https://github.com/stevenouyang1858" target="_blank" >Profile</a>
+        
     </nav>
     
     <h1>
@@ -22,16 +24,19 @@
     
     
     <form action="mailto:hao.ouyang124@gmail.com" method="POST" enctype="text/plain">
-        <label for="email">Email: </label>
+        <label for="email">Email:
         <input type="email" name="email">
-    
-        <label for="subject">Subject: </label>
+        </label>
+
+        <label for="subject">Subject: 
         <input name="subject">
+        </label>
     
-        <label for="body">Body</label>
+        <label for="body">Message: 
         <textarea name="body"></textarea>
+        </label>
     
-        <button>Submit</button>
+        <button>Send</button>
     </form>
 </body>
 </html>

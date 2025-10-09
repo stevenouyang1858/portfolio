@@ -3,4 +3,244 @@ body {
 	   and use the OS’s UI font as the website font
 	 */
   font: 100%/1.5 system-ui;
+  max-width: 100ch;
+  margin-inline: auto;
+  padding: 50px;
+
+
+}
+
+nav {
+  display: flex;
+  margin-bottom: 1.5em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: oklch(80% 3% 200);
+}
+
+nav a {
+    flex: 1;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    padding: 0.5em;
+    border-bottom: 0.4em solid transparent;
+  }
+
+nav a.current {
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  border-bottom-color: oklch(80% 3% 200);
+  padding-bottom: 0.1em;
+}
+
+nav a:hover{
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-accent);
+  background-color: oklch(from var(--color-accent) 95% 5% h);
+}
+
+html {
+  --color-accent: oklch(65% 50% 140);
+  accent-color: var(--color-accent);
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1em;
+}
+
+form label {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
+}
+
+form button {
+  grid-column: 1 / -1;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1em;
+}
+
+.project article {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  margin: 0;
+  gap: 1em;
+}
+
+
+.project article h2 {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  text-wrap: balance;
+
+}
+h1 {
+  font-size: 500%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+h3.res-info{
+  font-size: 150%;
+}
+
+
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5em;
+
+}
+
+.school {
+  font-weight: bold;
+}
+
+
+.edu-entry {
+  margin-bottom: 1.5em;
+}
+
+.edu-entry p.degree{
+  font-style: italic;
+  margin-top: -0.5em;
+}
+
+h3.res-header{
+  border-bottom-width: 0.1em;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+
+}
+
+.edu-entry ul{
+  margin: 0.5em 0;
+  list-style-type: disc;
+}
+
+.edu-entry li {
+  margin: 0.25em 0;
+}
+
+.edu-entry li p {
+  margin: 0;
+}
+
+
+
+
+
+.res-tec-skill ul{
+  margin: 0.5em 0;
+  list-style-type: disc;
+}
+
+.res-tec-skill li{
+  margin: 0.25em 0;
+}
+
+.res-tec-skill li p{
+  margin: 0;
+}
+
+
+
+
+
+
+.proj-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5em;
+
+}
+
+.proj-title {
+  font-weight: bold;
+}
+
+.res-ind-project {
+  margin-bottom: 1.5em;
+}
+
+.res-ind-project ul{
+  margin: 0.5em 0;
+  list-style-type: disc;
+}
+
+.res-ind-project li {
+  margin: 0.25em 0;
+}
+
+.res-ind-project li p {
+  margin: 0;
+}
+
+
+
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5em;
+}
+
+.job-left .job-title, .job-right .location{
+  font-weight: bold;
+}
+
+.job-left .company,
+.job-right .time {
+  display: block;
+}
+
+.job-left .company{
+  font-style: italic
+}
+
+.job-left,
+.job-right {
+  max-width: 60%;
+}
+
+.job-right {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.res-job {
+  margin-bottom: 1.5em
+}
+
+.res-job ul{
+  margin: 0.5em 0;
+  list-style-type: disc;
+}
+
+.res-job li{
+  margin: 0.25em 0;
+}
+
+.res-job li p{
+  margin: 0;
 }
