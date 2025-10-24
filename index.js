@@ -3,9 +3,7 @@ const projects = await fetchJSON('./lib/projects.json');
 const latestProjects = projects.slice(0, 3);
 
 const projectsContainer = document.querySelector('.projects');
-if (projectsContainer) {
-    renderProjects(latestProjects, projectsContainer, 'h2');
-}
+renderProjects(latestProjects, projectsContainer, 'h2');
 
 const githubData = await fetchGitHubData('stevenouyang1858');
 const profileStats = document.querySelector('#profile-stats');
