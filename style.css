@@ -73,13 +73,13 @@ form button {
   grid-column: 1 / -1;
 }
 
-.project {
+.projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
   gap: 1em;
 }
 
-.project article {
+.projects article {
   display: grid;
   grid-template-rows: subgrid;
   grid-row: span 3;
@@ -88,7 +88,7 @@ form button {
 }
 
 
-.project article h2 {
+.projects article h2 {
   margin: 0;
 }
 
@@ -263,4 +263,30 @@ h3.res-header{
   font-size: 80%;
   font-family: inherit;
 
+}
+
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 0.5rem;
+}
+
+#profile-stats dt {
+  grid-row: 1;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  text-align: left
+}
+}
+
+#profile-stats dd {
+  grid-row: 2;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000;
+  text-align: left;
 }

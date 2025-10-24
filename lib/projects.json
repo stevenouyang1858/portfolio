@@ -1,0 +1,74 @@
+[
+	{
+		"title": "Vehicle Image Classification",
+		"year": "2025",
+		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"description": "A vehicle image classification project using Convolutional Neural Networks (CNNs) implemented in TensorFlow and Keras to accurately classify images of different types of vehicles, such as cars, trucks, and motorcycles."
+	},
+	{
+		"title": "Song Reccommender System",
+		"year": "2024",
+		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"description": "A music recommendation system that suggests Taylor Swift's songs based on user preferences on audio features such as energy, danceability, and valence using pandas and Numpy libraries in Python."
+	},
+	{
+		"title": "Great British Bake Off Data Analysis",
+		"year": "2024",
+		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"description": "An analysis of the Great British Bake Off competition data using Python's pandas, NumPy, and Matplotlib libraries to uncover trends and insights about contestants' performances over more than 10 seasons."
+	},
+	{
+		"title": "Laudantium reprehenderit placeat perspiciatis.",
+		"year": "2023",
+		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"description": "Quo minus perferendis nulla corrupti repellat dolorem dolore assumenda sit minima ducimus quidem ullam, id ipsa dicta tempora laborum officiis unde possimus cumque nobis alias inventore! Ullam repudiandae iusto nam."
+	},
+	{
+		"title": "Consequuntur autem eos facere.",
+		"year": "2023",
+		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"description": "Laborum alias ea unde harum aspernatur? Molestiae, veritatis, possimus, numquam ex excepturi quod ducimus sit odit optio quibusdam sequi aliquid itaque tempore perspiciatis placeat expedita vero voluptates. Sit, aspernatur sint!"
+	},
+	{
+		"title": "Quos sint quaerat omnis?",
+		"year": "2022",
+		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"description": "Est neque, velit nam rerum error odio voluptates voluptatem magnam laboriosam ad? Doloribus, id et itaque unde porro totam ullam quaerat blanditiis odit animi eveniet aut, voluptate velit iure odio."
+	},
+	{
+		"title": "Iste ipsam magni fuga!",
+		"year": "2021",
+		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"description": "Velit omnis suscipit nemo quia? Iste maiores numquam labore quia nemo eveniet odit, modi magnam? Architecto officia sint est. Architecto iste minima consequuntur explicabo illo error sed at dolore nostrum!"
+	},
+	{
+		"title": "Ipsum, aperiam magni? Nobis.",
+		"year": "2020",
+		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"description": "Delectus magni, vel, quod mollitia hic rem temporibus, sint doloribus tenetur qui dolores tempore quisquam fuga nobis recusandae molestiae ipsum nostrum maxime eaque dicta aperiam eum quas beatae. At, neque."
+	},
+	{
+		"title": "Dicta nihil odit illo?",
+		"year": "2020",
+		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"description": "Vitae quos laudantium officiis rerum, accusamus delectus aspernatur quas nulla, magni sed, excepturi saepe incidunt laboriosam alias at aliquam atque quisquam autem nesciunt. Minus, reprehenderit odit nam illo natus aspernatur?"
+	},
+	{
+		"title": "Vel earum nulla facilis.",
+		"year": "2020",
+		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"description": "Aut voluptatem sint atque corrupti accusamus necessitatibus possimus et, itaque nulla id deleniti nemo repellendus asperiores molestias laudantium, mollitia ad dicta. Laboriosam, itaque. Quos corporis, perferendis natus officiis beatae qui."
+	},
+	{
+		"title": "Nobis iste neque quaerat.",
+		"year": "2019",
+		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"description": "Quos, recusandae, sit rerum velit nostrum nihil quisquam tempora repellat sed quibusdam facilis. Assumenda quaerat ab, nesciunt odio facere sit, ipsa necessitatibus tempora, maiores commodi sed quae provident deserunt at?"
+	},
+	{
+		"title": "Iusto, incidunt. Totam, illum.",
+		"year": "2019",
+		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
+		"description": "Tempore, eveniet minus velit, earum aperiam necessitatibus repellendus provident accusamus illum officiis doloribus, eum saepe est aut numquam distinctio pariatur natus totam repellat. Numquam nulla libero sapiente magnam nostrum ex."
+	}
+]
