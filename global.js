@@ -115,9 +115,18 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
         const p = document.createElement('p');
         p.textContent = pj.description || '';
 
+        const year = document.createElement('p');
+        year.classList.add('project-year');
+        year.textContent = `c. ${pj.year || ''}`;
+
+        const infoDiv = document.createElement('div');
+        infoDiv.classList.add('project-info');
+        infoDiv.appendChild(p);
+        infoDiv.appendChild(year);
+
         article.appendChild(heading);
         article.appendChild(img);
-        article.appendChild(p);
+        article.appendChild(infoDiv);
 
         containerElement.appendChild(article);
     }

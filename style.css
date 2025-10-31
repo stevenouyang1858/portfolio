@@ -281,7 +281,6 @@ h3.res-header{
   margin-bottom: 0.5rem;
   text-align: left
 }
-}
 
 #profile-stats dd {
   grid-row: 2;
@@ -289,4 +288,79 @@ h3.res-header{
   font-weight: bold;
   color: #000;
   text-align: left;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;;
+}
+
+.project-year {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #000000;
+  font-variant-numeric: oldstyle-nums;
+  margin-top: 0.5em;
+}
+
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
+}
+
+.swatch {
+  width: 1em;
+  height: 1em;
+  aspect-ratio: 1 / 1; 
+  background-color: var(--color);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+  border: 1px solid oklch(35.053% 0.0081 197.061 / 0.591);
+  border-radius: 8px;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  gap: 2em;
+  align-items: center;
+}
+
+&:has(path:hover) {
+  path:not(:hover) {
+    opacity: 0.5;
+  }
+}
+
+path {
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.selected {
+  --color: oklch(67.56% 0.19445 138.21) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
 }

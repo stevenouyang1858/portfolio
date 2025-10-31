@@ -6,7 +6,7 @@
 		"description": "A vehicle image classification project using Convolutional Neural Networks (CNNs) implemented in TensorFlow and Keras to accurately classify images of different types of vehicles, such as cars, trucks, and motorcycles."
 	},
 	{
-		"title": "Song Reccommender System",
+		"title": "Song Recommender System",
 		"year": "2024",
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
 		"description": "A music recommendation system that suggests Taylor Swift's songs based on user preferences on audio features such as energy, danceability, and valence using pandas and Numpy libraries in Python."
