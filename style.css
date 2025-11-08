@@ -364,3 +364,122 @@ path {
     fill: var(--color);
   }
 }
+
+.stats {
+  display: flex;                  
+  justify-content: space-around;  
+  align-items: flex-start;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  margin: 1rem 0;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.stats dt {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  color: #757575;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+
+.stats dd {
+  display: block;
+  margin: 0 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #222;
+
+}
+
+.stats dt, .stats dd {
+  flex: 0 0 auto;
+}
+
+.gridlines {
+  stroke: #e3e3e3;
+  stroke-opacity: 0.3;
+}
+
+.gridlines path {
+  stroke: none;
+}
+
+.dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25rem 1rem;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+dl.info dt {
+  font-weight: 500;
+  color: #666;
+}
+
+dl.info dd {
+  margin: 0;
+  font-weight: 600;
+  color: #222;
+}
+
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  backdrop-filter: blur(6px);
+  padding: 0.75rem 1rem;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.9rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+
+}
+
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+dl.info {
+  /* ... other styles ... */
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8; /* 5 + 3 */
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
