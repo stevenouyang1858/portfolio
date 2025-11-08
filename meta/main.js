@@ -63,7 +63,7 @@ function renderCommitInfo(data, commits) {
 
     // Add total LOC
     const totalLOC = d3.sum(data, d => d.length); // or data.length if each row counts as 1
-    addStat('Total Lines of code', totalLOC);
+    addStat('Total Lines of Code', totalLOC);
 
     // Add total commits
     addStat('Commits', commits.length);
