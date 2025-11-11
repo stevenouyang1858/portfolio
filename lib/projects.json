@@ -18,10 +18,10 @@
 		"description": "An analysis of the Great British Bake Off competition data using Python's pandas, NumPy, and Matplotlib libraries to uncover trends and insights about contestants' performances over more than 10 seasons."
 	},
 	{
-		"title": "Laudantium reprehenderit placeat perspiciatis.",
-		"year": "2023",
+		"title": "Exploring Boston Bike Traffic",
+		"year": "2025",
 		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-		"description": "Quo minus perferendis nulla corrupti repellat dolorem dolore assumenda sit minima ducimus quidem ullam, id ipsa dicta tempora laborum officiis unde possimus cumque nobis alias inventore! Ullam repudiandae iusto nam."
+		"description": "An interactive visualization of Boston and Cambridge bike-sharing activity across time."
 	},
 	{
 		"title": "Consequuntur autem eos facere.",
