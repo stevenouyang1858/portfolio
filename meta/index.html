@@ -18,28 +18,49 @@
     <h2>
         Summary
     </h2>
+    
+    <div class="filter-bar">
+        <label>
+            Show commits until: 
+            <input type="range" min="0" max="100" id="commit-progress">
+            <time id="commit-time"></time>
+        </label>
+    </div>
+
+    
+    
     <div id="stats">
 
     </div>
 
     <h2>Commits by time of day</h2>
-    <div id="chart">
+    
+    <div id="scrolly-1">
+        <div id="scatter-story">some filler text here</div>
+        <div id="scatter-plot">
+            <div id="chart"></div>
 
+            <dl id="commit-tooltip" class="info tooltip" hidden>
+                <dt>Commit</dt>
+                <dd>
+                    <a href="" id="commit-link" target="_blank"></a>
+                </dd>
+
+                <dt>Date</dt>
+                <dd id="commit-date"></dd>
+
+                <!-- Add: Time, author, lines edited -->
+            </dl>
+            <p id="selection-count">No commits selected</p>
+
+            <dl id="language-breakdown" class="stats"></dl>
+
+            <dl id="files">
+                <!-- we want to achieve this -->
+            </dl>
+        </div>
     </div>
 
-    <dl id="commit-tooltip" class="info tooltip" hidden>
-        <dt>Commit</dt>
-        <dd>
-            <a href="" id="commit-link" target="_blank"></a>
-        </dd>
-
-        <dt>Date</dt>
-        <dd id="commit-date"></dd>
-
-        <!-- Add: Time, author, lines edited -->
-    </dl>
-    <p id="selection-count">No commits selected</p>
-
-    <dl id="language-breakdown" class="stats"></dl>
+    
 </body>
 </html>
