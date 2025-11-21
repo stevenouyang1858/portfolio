@@ -522,25 +522,6 @@ circle.selected {
   }
 }
 
-#files {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-
-  > div {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: subgrid;
-  }
-
-  dt {
-    grid-column: 1;
-  }
-
-  dd {
-    grid-column: 2;
-  }
-}
-
 .loc {
   display: flex;
   width: 0.5em;
@@ -549,7 +530,7 @@ circle.selected {
   border-radius: 50%;
 }
 
-dd {
+#files dd {
   grid-column: 2;
   display: flex;
   flex-wrap: wrap;

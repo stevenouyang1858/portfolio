@@ -12,7 +12,7 @@ if (profileStats) {
   profileStats.innerHTML = `
         <h2>My GitHub Stats</h2>
         <dl>
-        <dt>Followers:</dt><dd>${githubData.followers}</dd>
+          <dt>Followers:</dt><dd>${githubData.followers}</dd>
           <dt>Following:</dt><dd>${githubData.following}</dd>
           <dt>Public Repos:</dt><dd>${githubData.public_repos}</dd>
           <dt>Public Gists:</dt><dd>${githubData.public_gists}</dd>
